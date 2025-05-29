@@ -1,0 +1,19 @@
+# Ignorera känsliga konfigurationsfiler
+appsettings.json
+appsettings.*.json
+
+# Ignorera IDE-specifika filer och byggmappar
+bin/
+obj/
+.vscode/
+.idea/
+
+# Ignorera loggfiler och tillfälliga filer
+*.log
+*.tmp
+*.bak
+
+# Ignorera miljövariabler och säkerhetsnycklar
+*.env
+*.cert
+*.key
